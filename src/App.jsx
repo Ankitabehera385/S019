@@ -22,10 +22,10 @@ function App() {
   
   return (
     <>
-    <Router basename="/S109">
+    <Router basename="/S019">
       <Routes>
         <Route path="/" element={<HomePage />}>
-          <Route index element={<AboutUs />} />
+          <Route index element={<Aboutus />} />
           <Route path="home" element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="computers" element={<Computers />} />
